@@ -2,7 +2,7 @@ const secondLargestNum = (arr) => {
   let firstLargest = -Infinity;
   let secondLargest = -Infinity;
   if (arr.length < 2) return null;
-  for (i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i++) {
     if (arr[i] > firstLargest) {
       secondLargest = firstLargest;
       firstLargest = arr[i];

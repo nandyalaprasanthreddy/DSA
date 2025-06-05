@@ -1,7 +1,7 @@
 const smallestNum = (arr) => {
   let smallest = Infinity;
   if (arr.length === 0) return null;
-  for (i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i++) {
     if (arr[i] < smallest) {
       smallest = arr[i];
     }

@@ -5,7 +5,7 @@ const secondSmallestNum = (arr) => {
   if (arr.length < 2) return null;
   let firstSmallest = Infinity;
   let secondSmallest = Infinity;
-  for (i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i++) {
     if (arr[i] < firstSmallest) {
       secondSmallest = firstSmallest;
       firstSmallest = arr[i];
