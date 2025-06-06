@@ -22,5 +22,5 @@ function binarySearch(arr, target) {
   return "Number not found in the array";
 }
 
-const value = binarySearch([5, 8, 45, 244, 52, 299, 38793, 332], 0);
+const value = binarySearch([5, 8, 45, 52, 244, 299, 332, 38793], 0);
 console.log(value);
