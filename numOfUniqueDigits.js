@@ -16,4 +16,4 @@ const uniqueDigits = (arr) => {
 const arr = [0, 0, 0, 1, 1, 1, 2, 3, 4, 4, 4, 5, 5, 5, 5, 7, 8, 9, 9, 9, 9];
 
 const value = uniqueDigits(arr);
-console.log(value);
+console.log("Unique array ", value);
