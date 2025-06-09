@@ -7,3 +7,5 @@ const fibonacci = (n) => {
 
 const val = fibonacci(8);
 console.log(val);
+
+// time complexity big O (2 power of n) worse time complexity to rid these use dynamic programm
