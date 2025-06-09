@@ -1,5 +1,8 @@
+// constraint apply on sorted ascending array
+// two pointers
+
 function binarySearch(arr, target) {
-  if (!Array.isArray(arr) || arr.length === 0) {
+  if (arr.length === 0) {
     return "Invalid or empty array";
   }
 
@@ -22,5 +25,5 @@ function binarySearch(arr, target) {
   return "Number not found in the array";
 }
 
-const value = binarySearch([5, 8, 45, 52, 244, 299, 332, 38793], 0);
+const value = binarySearch([], 0);
 console.log(value);
